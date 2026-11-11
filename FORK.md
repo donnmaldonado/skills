@@ -15,7 +15,7 @@ npx skills add donnmaldonado/skills -g -a claude-code \
   -s grill-with-docs -s to-spec -s to-tickets -s implement -s code-review \
   -s tdd -s domain-modeling -s codebase-design -s improve-codebase-architecture \
   -s wayfinder -s setup-matt-pocock-skills -s grilling -s handoff -s teach \
-  -s writing-for-agents
+  -s writing-for-agents -s adversarial-review -s atlas -s land-pr
 ```
 
 `-s` takes one skill per flag; a comma-separated list matches nothing.
@@ -24,8 +24,8 @@ Afterwards `npx skills update` keeps the install current with this fork, and
 `~/.agents/.skill-lock.json` should name `donnmaldonado/skills` as the source of
 every one of them.
 
-`land-pr`, `adversarial-review`, and `atlas` are locally authored, not from this
-repo — the installer does not manage them.
+`land-pr`, `adversarial-review`, and `atlas` are authored in this fork, not
+upstream. They live in `skills/fork/` so upstream merges never touch them.
 
 ## Merging upstream
 

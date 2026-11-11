@@ -1,0 +1,3 @@
+interface:
+  display_name: "Land PR"
+  short_description: "Drive a PR from CI review to merge"
