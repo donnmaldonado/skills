@@ -102,10 +102,10 @@ Read the stage off the worktree, not off the tickets: an open PR means `land-pr`
 
 | | Grp | # | Ticket | Sz | Why it's there | Unblocks |
 |---|---|---|--------|----|----------------|----------|
-| `>` | 1 | 90 | Stale startup warning | S | already written in the worktree, unlanded | — |
-| `>` | 2 | 92 | Cull box measures the back rank | S | same view file #90 is in, so it follows | — |
-| `@` | — | 124 | Three-numeral tier reads on device | S | only the phone can answer it | — |
-| `x #95` | — | 96 | Three kinds of the Cursed | L | next in the epic once the telegraph lands | #99 |
+| `>` | 1 | 11 | Stale startup warning | S | already written in the worktree, unlanded | — |
+| `>` | 2 | 12 | Cull box measures the back rank | S | same view file #11 is in, so it follows | — |
+| `@` | — | 13 | Three-numeral tier reads on device | S | only the phone can answer it | — |
+| `x #14` | — | 15 | Three kinds of the Cursed | L | next in the epic once the telegraph lands | #16 |
 
 - **First column** — the state marker from step 3, and nothing else. Blocked rows carry their blocker's number so the table reads as a sequence, not a status.
 - `Grp` — the parallel group from step 3. Equal numbers are safe as simultaneous branches; a higher number waits for the lower ones it conflicts with. `@` and `x` rows take `—` — a person's work and a blocked ticket don't contend for branches.
@@ -121,8 +121,8 @@ Rows read top to bottom as the order to do them in; equal `Grp` numbers mean the
 
 | Cluster | What it is | Count |
 |---------|------------|-------|
-| #81 decision layer | the Run's rebuild into two power axes | 6, two startable |
-| Scene-tuning guards | holes the #65 fixes left open | 3, all S |
+| #10 decision layer | the Run's rebuild into two power axes | 6, two startable |
+| Scene-tuning guards | holes the #9 fixes left open | 3, all S |
 
 - `Cluster` — an epic, a module, or a theme. A ticket number only when one carries a whole cluster.
 - `What it is` — half a line.
